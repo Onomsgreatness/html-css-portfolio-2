@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnomsGreatness Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="icon" type="image/png" href="./asserts/pictures/FAVICON.png">
+    <script src="https://kit.fontawesome.com/a639ce1e4d.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Onome Abuku</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Onome Abuku</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./asserts/pictures/FavourPics.png" alt="Onome Abuku profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hi, I'm</p>
+            <h1 class="title">Onome Abuku</h1>
+            <p class="section__text__p2">Software Engineer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                onclick="window.open('/asserts/pictures/Onome Abuku 1(PLT).pdf')">Download CV</button>
+                
+                <button class="btn btn-color-1"
+                onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <a target="_blank" href="https://www.linkedin.com/in/onome-abuku-87172426a/">
+                    <i class="fa-brands fa-linkedin fa-3x"></i>
+                </a>
+
+                <a target="_blank" href="https://github.com" >
+                    <i class="fa-brands fa-square-github fa-3x"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./asserts/pictures/broski2.png"
+                 alt="Profile picture" 
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <i class="fa-solid fa-award fa-xl"></i>
+                        <h3>Experience</h3>
+                        <p>2+ years <br />Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <i class="fa-regular fa-user fa-xl" style="color: #000000;"></i>
+                        <h3>Education</h3>
+                        <p>B.sc. Computer Science Degree <br /><b>University of Hertfordshire</b></p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        As a Computer Science student at the University of Hertfordshire. 
+                        I have combined my passion for design with a growing expertise in web development.
+                        My journey began initially with Corel draw, then UI/UX design using Figma, 
+                        which consistently integrated my coding skills in HTML, CSS and JavaScript 
+                        to create responsive and interactive websites, one of which as this portfolio. 
+                        As I aspire to become a Software Engineer, I am passionate about technology, 
+                        ready to learn and adaptable to get hands-on work experience.
+                        
+                
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- <i class="fa-solid fa-angles-down fa-xl" onclick="location.href='./#experience'" style="color: #000000;"></i>   Down arrow-->
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experinece-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                           
+                            <div>
+                                <h3>HTML</h3>
+                                
+                            </div>
+                        </article>
+                        <article>
+                           
+                            <div>
+                                <h3>CSS</h3>
+                                
+                            </div>
+                        </article>
+                        <article>
+                           
+                            <div>
+                                <h3>JavaScript</h3>
+                                
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experinece-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                           
+                            <div>
+                                <h3>SQL</h3>
+                                
+                            </div>
+                        </article>
+                        <article>
+                           
+                            <div>
+                                <h3>Python</h3>
+                                
+                            </div>
+                        </article>
+                        <article>
+                           
+                            <div>
+                                <h3>Java</h3>
+                                
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experinece-sub-title">UX/UI</h2>
+                    <div class="article-container">
+                        <article>
+                           
+                            <div>
+                                <h3>Figma</h3>
+                                
+                            </div>
+                        </article>
+                    </div>
+                </div>
+        </div>
+        <!--down arrow
+        <i class="fa-solid fa-angles-down fa-xl" onclick="location.href='./#projects'" style="color: #000000;"></i> -->
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                            src="./asserts/pictures/clone0.png" 
+                            alt="Project 1"
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experinece-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                            src="./asserts/pictures/clone1.png" 
+                            alt="Project 2"
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experinece-sub-title project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                            src="./asserts/pictures/clone2.png" 
+                            alt="Project 3"
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experinece-sub-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--down arrow
+        <i class="fa-solid fa-angles-down fa-xl" onclick="location.href='./#contact'" style="color: #000000;"></i>-->
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <i class="fa-solid fa-envelope fa-xl email-icon"></i>
+                <p><a href="mailto:abukuonome@gmail.com">abukuonome@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <i class="fa-brands fa-linkedin fa-xl"></i>
+                <p><a href="https://www.linkedin.com/in/onome-abuku-87172426a/" target="_blank">LinkedIn</a></p>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Onome Abuku. All Rights Reserved.</p>
+        <!--&#169 is the symbol for copyright in HTML -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
